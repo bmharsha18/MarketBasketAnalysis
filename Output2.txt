@@ -1,0 +1,22 @@
+python3 association.py
+
+PREFERABLY-----Enter support count value between 318 and 557
+Enter minimum support count out of 9835 transactions :500
+Enter minimum confidence percentage: 30
+
+Market basket analysis !!
+
+Number of transactions in dataset :  9835
+RULES GENERATED!!
+
+ ('whole milk', 'rolls/buns', 'other vegetables') -> {'yogurt'} 
+with confidence =  0.3352272727272727
+
+ ('rolls/buns', 'other vegetables', 'yogurt') -> {'whole milk'} 
+with confidence =  0.5221238938053098
+
+ ('whole milk', 'rolls/buns', 'yogurt') -> {'other vegetables'} 
+with confidence =  0.38562091503267976
+
+Number of rules generated are :  3
+

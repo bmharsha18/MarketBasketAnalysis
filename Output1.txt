@@ -1,0 +1,44 @@
+PREFERABLY-----Enter support count value between 318 and 557
+Enter minimum support count out of 9835 transactions :350
+Enter minimum confidence percentage: 25
+
+Market basket analysis !!
+
+Number of transactions in dataset :  9835
+RULES GENERATED!!
+
+ ('tropical fruit', 'other vegetables', 'root vegetables', 'yogurt', 'soda') -> {'whole milk', 'rolls/buns'} 
+with confidence =  0.2857142857142857
+
+ ('whole milk', 'root vegetables', 'yogurt', 'rolls/buns', 'soda') -> {'tropical fruit', 'other vegetables'} 
+with confidence =  0.3333333333333333
+
+ ('tropical fruit', 'root vegetables', 'yogurt', 'rolls/buns', 'soda') -> {'whole milk', 'other vegetables'} 
+with confidence =  0.3333333333333333
+
+ ('tropical fruit', 'whole milk', 'root vegetables', 'rolls/buns', 'soda') -> {'yogurt', 'other vegetables'} 
+with confidence =  0.2857142857142857
+
+ ('tropical fruit', 'whole milk', 'root vegetables', 'yogurt', 'soda') -> {'rolls/buns', 'other vegetables'} 
+with confidence =  0.2857142857142857
+
+ ('tropical fruit', 'other vegetables', 'root vegetables', 'yogurt', 'rolls/buns', 'soda') -> {'whole milk'} 
+with confidence =  0.4
+
+ ('other vegetables', 'whole milk', 'root vegetables', 'yogurt', 'rolls/buns', 'soda') -> {'tropical fruit'} 
+with confidence =  0.5
+
+ ('tropical fruit', 'other vegetables', 'whole milk', 'root vegetables', 'yogurt', 'soda') -> {'rolls/buns'} 
+with confidence =  0.6666666666666666
+
+ ('tropical fruit', 'whole milk', 'root vegetables', 'yogurt', 'rolls/buns', 'soda') -> {'other vegetables'} 
+with confidence =  0.6666666666666666
+
+ ('tropical fruit', 'other vegetables', 'whole milk', 'yogurt', 'rolls/buns', 'soda') -> {'root vegetables'} 
+with confidence =  0.2857142857142857
+
+ ('tropical fruit', 'other vegetables', 'whole milk', 'root vegetables', 'rolls/buns', 'soda') -> {'yogurt'} 
+with confidence =  0.4
+
+Number of rules generated are :  11
+
